@@ -1,7 +1,7 @@
 # Site settings
-title: PortfolioSSC
-email: ""
-description: "Photo Journal"
+title: SCreations
+email: "sandracristinagc@gmail.com"
+description: ""
 url: "https://creationssc.github.io"
 baseurl: "/portfolio"
 facebook_username: ""
@@ -33,8 +33,10 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "https://creationssc.github.io/portfolio/gallery/"  
-  - JOURNAL: "https://creationssc.github.io/portfolio/journal/"
+  #- GALLERY: "https://creationssc.github.io/portfolio/gallery/"
+  - CREATIONS: "https://creationssc.github.io/portfolio/creations/"
+  #- JOURNAL: "https://creationssc.github.io/portfolio/journal/"
+  - MOTION: "https://creationssc.github.io/portfolio/motion/"
   - ABOUT: "https://creationssc.github.io/portfolio/about/"
 
 # All translation keys
