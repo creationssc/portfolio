@@ -1,20 +1,14 @@
 ---
 layout: page
-title: "album"
-description: "masonry"
+title: "Human Nature"
+description: "Through the camera lens, I capture the emancipation of the ego. The self in all of it state of redemption, the fights that one has with itself and the doom of deprecate believes. A narrative through time, pages and the eyes of the one that contemplates what I once contemplated."
 active: gallery
-header-img: "img/gallery-bg.jpg"
-album-title: "my 7th album"
+header-img: "img/g07-bg.jpg"
+album-title: ""
 images:
  - image_path: /gallery/archive/g07/bg1.jpg
    caption: IMAGE TITLE
    mfp-title: IMAGE TITLE
-   copyright: © photorama
- - image_path: /gallery/archive/g07/bg2.jpg
-   caption: IMAGE TITLE
-   copyright: © photorama
- - image_path: /gallery/archive/g07/bg3.jpg
-   caption: IMAGE TITLE
    copyright: © photorama
 ---
 
@@ -32,26 +26,29 @@ images:
 
 
 			<!-- Gallery __-->
-			<div class="gallery masonry-gallery">
+			<!-- <div class="gallery masonry-gallery"> -->
 		
-{% for image in page.images %}  		
+<!-- {% for image in page.images %}   		
 
 				<figure class="gallery-item">
-					<header class='gallery-icon'>
+					<header class='gallery-icon'> -->
 
-<a href="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}" class="popup" title="{{ image.caption }}" data-caption="{{ image.copyright }}">
-<img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a>
+<!-- A book -->
+<iframe allowfullscreen="allowfullscreen" scrolling="no" class="fp-iframe" style="border: 0px none; width: 1200px; height: 600px;" src="https://heyzine.com/flip-book/8631fd494c.html"></iframe>
+
+<!-- <a href="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}" class="popup" title="{{ image.caption }}" data-caption="{{ image.copyright }}">
+<img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a> -->
 						
-					</header>	
+					<!-- </header>	
 					<figcaption class='gallery-caption'>
 						<div class="entry-summary">
 							<h3>{{image.caption}}</h3>
 							<p>{{image.copyright}}</p>
 						</div>
-					</figcaption>
-				</figure>
+					</figcaption> 
+				</figure> -->
 				
-{% endfor %}
+<!-- {% endfor %} -->
 
 			</div>
 
