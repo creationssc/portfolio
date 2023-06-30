@@ -1,21 +1,15 @@
 ---
 layout: page
-title: "album"
-description: "masonry"
+title: ""
+description: "InPorta is an artistic project that aims to respond to the view of the city of Funchal through a documental approach focused on the typical city doors, understanding it as a journey of knowledge and recognition. The city as a route holds a great symbolic value, it is the time spent on this pathway and the predisposition to spare it that cumulatively result in a relationship between the observer and the city itself. In this relationship, as in all, the journey is also the process of knowledge and recognition of a very specific identity. Funchal, as a city, has several elements that belong to its identity and I found it through its doors."
 active: gallery
-header-img: "img/gallery-bg.jpg"
-album-title: "my 4th album"
+header-img: "img/g04-bg.jpg"
+album-title: ""
 images:
- - image_path: /gallery/archive/g04/bg1.jpg
-   caption: IMAGE TITLE
-   mfp-title: IMAGE TITLE
-   copyright: © photorama
- - image_path: /gallery/archive/g04/bg2.jpg
-   caption: IMAGE TITLE
-   copyright: © photorama
- - image_path: /gallery/archive/g04/bg3.jpg
-   caption: IMAGE TITLE
-   copyright: © photorama
+ - image_path: /gallery/archive/g07/bg1.jpg
+   caption: 
+   mfp-title: 
+   copyright: 
 ---
 
 <html class="no-js" lang="en">
@@ -32,26 +26,29 @@ images:
 
 
 			<!-- Gallery __-->
-			<div class="gallery masonry-gallery">
+			<!-- <div class="gallery masonry-gallery"> -->
 		
-{% for image in page.images %}  		
+<!-- {% for image in page.images %}   		
 
 				<figure class="gallery-item">
-					<header class='gallery-icon'>
+					<header class='gallery-icon'> -->
 
-<a href="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}" class="popup" title="{{ image.caption }}" data-caption="{{ image.copyright }}">
-<img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a>
+<!-- A book -->
+<iframe allowfullscreen="allowfullscreen" scrolling="no" class="fp-iframe" style="border: 0px none; width: 1200px; height: 600px;" src="https://heyzine.com/flip-book/2c8f5115a4.html"></iframe>
+
+<!-- <a href="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}" class="popup" title="{{ image.caption }}" data-caption="{{ image.copyright }}">
+<img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a> -->
 						
-					</header>	
+					<!-- </header>	
 					<figcaption class='gallery-caption'>
 						<div class="entry-summary">
 							<h3>{{image.caption}}</h3>
 							<p>{{image.copyright}}</p>
 						</div>
-					</figcaption>
-				</figure>
+					</figcaption> 
+				</figure> -->
 				
-{% endfor %}
+<!-- {% endfor %} -->
 
 			</div>
 
