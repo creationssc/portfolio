@@ -33,10 +33,10 @@ comments :
 
 # Internal nav
 nav:
-  #- GALLERY: "https://creationssc.github.io/portfolio/gallery/"
-  - CREATIONS: "https://creationssc.github.io/portfolio/creations/"
+  - CREATIONS: "https://creationssc.github.io/portfolio/gallery/"
+  #- CREATIONS: "https://creationssc.github.io/portfolio/creations/"
   #- JOURNAL: "https://creationssc.github.io/portfolio/journal/"
-  - MOTION: "https://creationssc.github.io/portfolio/motion/"
+  - MOTION: "https://creationssc.github.io/portfolio/journal/"
   - ABOUT: "https://creationssc.github.io/portfolio/about/"
 
 # All translation keys
