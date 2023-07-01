@@ -4,7 +4,7 @@ title:      "Alice in Wonderland"
 subtitle:   "Lewis Carroll"
 active: journal
 image:
-  feature: "pc001.jpg"
+  feature: <iframe src="https://drive.google.com/file/d/1v_Q993x62Mxehy4LKwCWmsr85tZafB5E/preview" width="1120" height="460"></iframe>
 date:       2016-03-25
 header-img: "img/postcover/pc001.jpg"
 tags: [tag01, tag02]
